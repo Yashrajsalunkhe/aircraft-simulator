@@ -92,7 +92,7 @@ function App() {
       </div>
 
       <footer className="app-footer">
-        <p>Developed by BLUECLUBART Pvt. Ltd.</p>
+        <p>Yashraj Salunkhe</p>
       </footer>
     </div>
   );
