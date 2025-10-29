@@ -17,6 +17,6 @@ export const aircraftData = {
     c: 0.00018,
     V: 150,
     eta: 0.85,
-    image: "https://images.unsplash.com/photo-1583792344923-abf5054b1155?w=400&h=250&fit=crop"
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=250&fit=crop"
   }
 };
