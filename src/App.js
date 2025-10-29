@@ -22,15 +22,15 @@ function App() {
   // Load aircraft data when engine type changes
   useEffect(() => {
     const data = aircraftData[engineType];
-    setInputs({
+    setInputs(prevInputs => ({
       Wi: data.Wi,
       Wf: data.Wf,
       LD: data.LD,
       c: data.c,
       V: data.V,
       eta: data.eta,
-      wind: inputs.wind
-    });
+      wind: prevInputs.wind
+    }));
   }, [engineType]);
 
   const handleInputChange = (name, value) => {
